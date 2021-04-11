@@ -49,16 +49,12 @@ var selectionsArray = [];
 if(specChars === true){
   selectionsArray.push(1);
   passwd = passwd.concat(specialChars[Math.floor((Math.random() * (33-0)+0))]);
-  console.log(passwd);
-  console.log(selectionsArray);
   finalalert= finalalert.concat(" special characters ");
 }
 
 if(numChars === true){
   selectionsArray.push(2);
   passwd = passwd.concat(numericalChars[Math.floor((Math.random() * (10-0)+0))]);
-  console.log(passwd);
-  console.log(selectionsArray);
   finalalert= finalalert.concat(" numerical characters ");
 }
 
@@ -66,16 +62,12 @@ if(numChars === true){
 if(lowerChars === true){
   selectionsArray.push(3);
   passwd = passwd.concat(lowercaseChars[Math.floor((Math.random() * (26-0)+0))]);
-  console.log(passwd);
-  console.log(selectionsArray);
   finalalert= finalalert.concat(" lowercase characters ");
 }
 
 if(upperChars === true){
   selectionsArray.push(4);
   passwd = passwd.concat(uppercaseChars[Math.floor((Math.random() * (26-0)+0))]);
-  console.log(passwd);
-  console.log(selectionsArray);
   finalalert= finalalert.concat(" uppercase characters ");
 }
 
@@ -87,7 +79,7 @@ var max = selectionsArray.length;
 //randomly generate the remaining characters in the password
 for(var i =0; i<(totalChars-selectionsArray.length); i++){
      var select = selectionsArray[Math.floor((Math.random() * (max-0)+0))];
-     console.log(select);
+     
      switch(select){
        case 1:{
            passwd = passwd.concat(specialChars[Math.floor((Math.random() * (33-0)+0))]);
