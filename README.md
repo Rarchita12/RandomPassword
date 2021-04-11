@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This website generates a random password based on the user's input of password length, and if they want special, numerical, lowercase or uppercase characters to be included in their randomly generate password.
+This website generates a random password based on the user's input of their chosen password length, and if they want special, numerical, lowercase or uppercase characters to be included in their randomly generate password.
 
 ## Built With
 
@@ -12,13 +12,23 @@ This website generates a random password based on the user's input of password l
 
 ## Website
 
-https://rarchita12.github.io/ProfessionalPortfolio/
+https://rarchita12.github.io/RandomPassword/
 
-![](assets/images/website1.JPG)
+![](assets/images/screenshot1.JPG)
 
-![](assets/images/website2.JPG)
+![](assets/images/screenshot2.JPG)
 
-![](assets/images/website3.JPG)
+![](assets/images/screenshot3.JPG)
+
+![](assets/images/screenshot4.JPG)
+
+![](assets/images/screenshot5.JPG)
+
+![](assets/images/screenshot6.JPG)
+
+![](assets/images/screenshot7.JPG)
+
+![](assets/images/screenshot8.JPG)
 
 # Contribution
 
